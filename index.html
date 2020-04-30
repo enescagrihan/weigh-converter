@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="main.js" defer></script>    
+    <title>Weigh Converter</title>
+    <style>
+        body {
+            margin-top: 70px;
+            background-color: #a9d7d1;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-3">Weigh Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input type="number" id="lbsInput" class="form-control form-control-lg" placeholder="Enter Pounds...">
+
+                    </div>
+                </form>
+                <hr>
+                <div id="output">
+                    <div class="card mb-4">
+                        <div class="card-body text-dark">
+                            <h4>Grams</h4>
+                            <p id="gramsOutput"></p>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-body text-dark">
+                            <h4>Kilograms</h4>
+                            <p id="kgOutput"></p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body text-dark">
+                            <h4>Ounces</h4>
+                            <p id="ozOutput"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
